@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>Calculadora On_line</title>
+</head>
+<body>
+    <header>
+        <img src="./logo2.png" alt="Calculadora" width="50"/>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Calculadora On-line</a></li>
+            </ul>
+        </nav>
+    </header>
+   <form class="Calculando">
+    <div>
+        <input type="text" id="operando1" placeholder="operando1">
+        <br><br>
+        <input type="text" id="operando2" placeholder="operando2">
+        <br><br>
+        <button id="operacion" onclick="Calculadora(operando1,operando2)" value="+">+</button>
+        <button id="operacion" onclick="Calculadora(operando1,operando2)" value="-">-</button>
+        <button id="operacion" onclick="Calculadora(operando1,operando2)" value="*">*</button>
+        <button id="operacion" onclick="Calculadora(operando1,operando2)" value="/">/</button>
+        <br><br><br>
+        <input type="text" id="resultado" placeholder="resultado" >
+    </div>
+   </form>
+    <br>
+    <hr>
+    <footer>
+        <p>Salta - Argentina</p>
+        <p>Derechos Reservados 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
